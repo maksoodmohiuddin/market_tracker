@@ -1,0 +1,12 @@
+<ion-view view-title="Account">
+  <ion-content>
+    <ion-list>
+    <ion-toggle ng-model="settings.fetchLatest">
+        Fetch Latest 
+    </ion-toggle>
+    </ion-list>
+     <p ng-show="settings.fetchLatest">
+         This feature is not currently available. 
+     </p>
+  </ion-content>
+</ion-view>
